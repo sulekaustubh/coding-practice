@@ -21,3 +21,4 @@ function higherPrime(n) {
 	}
 }
 console.log(higherPrime(18));
+console.log(higherPrime(7));
