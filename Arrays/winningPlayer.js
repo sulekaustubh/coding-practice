@@ -13,7 +13,7 @@ function winningPlayer(arr) {
 }
 
 winningPlayer([1, 2, 2, 1, 1]); // 3
-winningPlayer([1, 2, 1, 2, 2, 2, 1]); // 4
+winningPlayer([1, 2, 1, 2, 2, 2, 1, 2]); // 5
 
 // each array represents a match between 2 players
 // each i'th element represents a round
