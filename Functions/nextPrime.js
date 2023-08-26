@@ -3,7 +3,7 @@
 // If n is a prime number, return n
 // If not, return the next higher prime number
 
-function higherPrime(n) {
+function nextPrime(n) {
 	count = 0;
 	for (i = 1; i <= n; i++) {
 		// a prime number is only divisible by 1 and itself
@@ -16,9 +16,9 @@ function higherPrime(n) {
 	if (count == 2) {
 		return `${n} is a Prime number`;
 	} else {
-		// higherPrime() is recursively called again with (n+1) as arguement
-		return higherPrime(n + 1);
+		// nextPrime() is recursively called again with (n+1) as arguement
+		return nextPrime(n + 1);
 	}
 }
-console.log(higherPrime(18));
-console.log(higherPrime(7));
+console.log(nextPrime(18));
+console.log(nextPrime(7));
