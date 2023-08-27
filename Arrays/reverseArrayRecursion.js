@@ -1,3 +1,7 @@
+// reverse an array using recursion
+// do not create a new array
+// do not use in-built methods like reverse
+
 function reverseArrayRecursion(arr) {
     
 	let start = 0;
@@ -16,4 +20,4 @@ function reverseArrayRecursion(arr) {
 	return console.log(arr);
 }
 
-reverseArrayRecursion([7, 6, 5, 4, 3, 2, 1, 0]);
+reverseArrayRecursion([6, 5, 4, 3, 2, 1]);
