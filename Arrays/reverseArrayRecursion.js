@@ -1,16 +1,19 @@
-let start = 0;
-let end = 5;
-
 function reverseArrayRecursion(arr) {
-	[arr[start], arr[end]] = [arr[end], arr[start]];
-	start++;
-	end--;
+    
+	let start = 0;
+	let end = arr.length - 1;
 
-	if (start > end) {
-		return console.log(arr);
-	} else {
-		reverseArrayRecursion(arr);
+	function callBack() {
+		if (start < end) {
+			[arr[start], arr[end]] = [arr[end], arr[start]];
+			start++;
+			end--;
+			callBack();
+		}
 	}
+
+	callBack();
+	return console.log(arr);
 }
 
-reverseArrayRecursion([6, 5, 4, 3, 2, 1]);
+reverseArrayRecursion([7, 6, 5, 4, 3, 2, 1, 0]);
