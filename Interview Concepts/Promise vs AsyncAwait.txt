@@ -1,7 +1,12 @@
 Difference between Promise and Async-Await
 
-Promise                   |
-• It has 3 states
-  - pending
-  - resolved
-  - rejected
+Promise                   
+• It has 3 states: pending, resolved, rejected
+• Error handling is done using .then() and .catch() methods
+• Promise chaining can degrade code readability and increase complexity
+
+Async-Await
+• It is state-less 
+• Always returns a promise, either resolved or rejected 
+• Error handling is done using .try() and .catch() methods
+• Easier to implement and read the data flow 
