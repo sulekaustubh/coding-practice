@@ -1,0 +1,7 @@
+Difference between Promise and Async-Await
+
+Promise                   |
+• It has 3 states
+  - pending
+  - resolved
+  - rejected
