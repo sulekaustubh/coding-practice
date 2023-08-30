@@ -1,7 +1,8 @@
 // controlled components in react
 // • these represent the traditional approach towards building form elements in react
 // • the value of the form elements like input, text-area, etc is directly controlled by the component's state
-// • meaning,
+// • meaning, the component's state serves as the single source of truth for the value of the input element
+
 import React, { useState } from 'react';
 
 function ControlledComponent() {
