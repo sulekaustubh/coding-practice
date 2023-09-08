@@ -1,0 +1,18 @@
+HTML - Hyper Text Markup Language
+
+Difference between HTML tags and elements:
+Tags 
+• individual markup symbols
+• come in pairs of opening and closing angle brackets 
+• example: <p> </p>
+
+Elements
+• building blocks of an HTML document
+• give structure and meaning to the content on a web page
+• include tags and content
+• example: <p>I am some content</p>
+
+• 
+•
+•
+•
