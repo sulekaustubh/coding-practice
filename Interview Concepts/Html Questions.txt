@@ -11,8 +11,38 @@ Elements
 • give structure and meaning to the content on a web page
 • include tags and content
 • example: <p>I am some content</p>
+--------------------------------------------------------------------
 
-• 
-•
-•
-•
+Different ways to write CSS:
+
+Specificity: In-line > Internal > External
+
+In-line CSS
+• applies directly to an html element using 'style' attribute
+<p style="color: blue;">
+   This is a blue paragraph
+</p>
+
+Internal (Embedded) CSS
+• applies directly to a specific HTML document using '<style> </style>'
+• defined within the <style> element placed in the <head> section
+<head>
+    <style>
+        p {
+            color: purple;
+        }
+    </style>
+</head>
+
+External style sheet
+• a separate CSS file that contains styles
+• linked to an HTML document using the <link> element within the <head> section
+• uses selectors to target elements: id > class, attribute > tag
+• lower priority than inline, internal and selectors with higher specificity
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+!important
+• overrides all other styles, including inline styles
+• for emergency situations only
