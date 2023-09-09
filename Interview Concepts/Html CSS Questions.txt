@@ -81,7 +81,7 @@ Difference between Relative and Absolute positioning: ✅
 • other elements ignore it when determining their layout
 
 ------------------------------------------------------------------------------
-What is the use of viewport meta tag ? ✅
+What is the use of <viewport> meta tag ? ✅
 ------------------------------------------------------------------------------
 ■ used to control and ensure a consistent and responsive display of a web page on various screen sizes
 
@@ -92,3 +92,15 @@ What is the use of viewport meta tag ? ✅
 • minimum-scale: limit the minimum zoom level
 • maximum-scale: limit the maximum zoom level
 • viewport-fit: control the display on devices with notches and curved edges
+
+------------------------------------------------------------------------------
+What is the use of <script> in <body> and <head> ? ✅
+------------------------------------------------------------------------------
+■ <head>
+• loading external javascript files or other libraries and frameworks
+• non-blocking operation
+• used for running scripts that need to be executed before First Contentful Paint
+
+■ <body>
+• to run scripts that manipulate DOM and handle user interactions with page content
+• to run scripts that have some HTML elements as dependencies
