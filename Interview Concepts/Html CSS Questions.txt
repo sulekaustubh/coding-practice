@@ -68,3 +68,14 @@ Difference between <div> and <span> tag: ✅
 ------------------------------------------------------------------------------
 Difference between Relative and Absolute positioning: ✅
 ------------------------------------------------------------------------------
+■ Relative
+• positioned relative to its normal position 
+• not removed from the document flow
+• can still affect the layout of other elements
+• space it would normally occupy is preserved
+
+■ Absolute
+• positioned relative to the viewport or the nearest positioned ancestor
+• removed from the document flow
+• cannot affect the layout of other elements
+• other elements ignore it when determining their layout
