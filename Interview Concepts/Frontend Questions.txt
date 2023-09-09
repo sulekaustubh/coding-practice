@@ -21,6 +21,24 @@
    ● Browser might cache some resources to improve future page loads
 
 ---------------------------------------------------------------------------
+✅ How does Browser read JSX ?
+---------------------------------------------------------------------------
+   ● Browsers do not understand JSX (JavaScript XML) directly
+   ● Babel is a transpiler that converts JSX into regular JavaScript
+   ● During conversion:
+     JSX tags are converted into function calls
+     These function calls create virtual representation of the DOM element
+     React then uses this virtual representation to efficiently update the actual DOM
+
+---------------------------------------------------------------------------
+✅ What is Babel ?
+---------------------------------------------------------------------------
+   ● It is a JavaScript compiler 
+   ● Ensures that the code is compatible with a wide range of browsers
+     By converting modern JavaScript code into an older version of JavaScript   
+   ● Mainly used to convert JSX into regular JavaScript code
+
+---------------------------------------------------------------------------
 Difference between HTML tags and elements: 🔥
 ---------------------------------------------------------------------------
 ■ Tags 
