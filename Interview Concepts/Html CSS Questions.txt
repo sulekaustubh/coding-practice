@@ -50,8 +50,6 @@ Different ways to write CSS: ✅
 ■ !important
 • overrides all other styles, including inline styles
 • for emergency situations only
-■
-•
 
 ------------------------------------------------------------------------------
 Difference between <div> and <span> tag: ✅

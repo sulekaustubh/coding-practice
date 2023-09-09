@@ -1,0 +1,26 @@
+✨🎗️💎♦️💡📀⭐🌈🔥💫❓❔🔱❇️✅🔵🟢🟡⚪
+ ●◉◯▶
+
+---------------------------------------------------------------------------
+✅ What exactly happens when we click a URL ?
+---------------------------------------------------------------------------
+   ● URL (Uniform Resource Locator) is typed or clicked
+     The URL is mainly made up of: Protocol, Domain name, Path
+   ● Browser uses DNS (Domain Name System) to fetch the IP address of the domain name
+   ● A connection is established between the browser and server
+     Server is where the files and resources of a website are stored
+     These files are mostly: HTML, CSS and JavaScript code
+   ● Browser sends a request to view these files
+   ● Server analyses the request and processes it
+     It retrieves these files from its system or generates it dynamically
+     And sends these files back to the browser as a response 
+   ● Browser receives the HTTP response and renders the content
+     First, the HTML is parsed
+     Then, CSS is painted
+     Finally, the JavaScript code is executed to add functionality and interactivity
+   ● Browser might cache some resources to improve future page loads
+
+---------------------------------------------------------------------------
+Difference between HTML tags and elements: 🔥
+---------------------------------------------------------------------------
+■ Tags 
