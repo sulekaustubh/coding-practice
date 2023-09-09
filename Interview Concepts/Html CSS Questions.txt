@@ -86,9 +86,9 @@ What is the use of viewport meta tag ? ✅
 ■ used to control and ensure a consistent and responsive display of a web page on various screen sizes
 
 ■ The viewport meta tag offers various attributes:
-• specify the viewport width using the 'width' attribute
-• 
-• set the initial zoom level using the 'initial-scale' attribute
-• toggle user's ability to zoom using the 'user-scalable' attribute
-• limit the zoom levels using the 'minimum-scale' and 'maximum-scale' attribute
-• control the display on devices with notches and curved edges using 'viewport-fit' attribute 
+• width: set the viewport width
+• initial-scale: set the initial zoom level
+• user-scalable: toggle user's ability to zoom
+• minimum-scale: limit the minimum zoom level
+• maximum-scale: limit the maximum zoom level
+• viewport-fit: control the display on devices with notches and curved edges
