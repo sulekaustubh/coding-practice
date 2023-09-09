@@ -1,48 +1,66 @@
-HTML - Hyper Text Markup Language
+✨🎗️💎♦️💡📀⭐🌈🔥💫❓❔🔱❇️✅🔵🟢🟡⚪
 
-Difference between HTML tags and elements:
-Tags 
+HTML - Hyper Text Markup Language ✅ 
+
+---------------------------------------------------------------------------
+Difference between HTML tags and elements: ✅
+---------------------------------------------------------------------------
+■ Tags 
 • individual markup symbols
 • come in pairs of opening and closing angle brackets 
 • example: <p> </p>
 
-Elements
+■ Elements
 • building blocks of an HTML document
 • give structure and meaning to the content on a web page
 • include tags and content
 • example: <p>I am some content</p>
---------------------------------------------------------------------
 
-Different ways to write CSS:
+---------------------------------------------------------------------------
+Different ways to write CSS: ✅
+---------------------------------------------------------------------------
+■ Specificity: In-line > Internal > External
 
-Specificity: In-line > Internal > External
-
-In-line CSS
+■ In-line CSS
 • applies directly to an html element using 'style' attribute
-<p style="color: blue;">
-   This is a blue paragraph
-</p>
+• <p style="color: blue;">
+    This is a blue paragraph
+  </p>
 
-Internal (Embedded) CSS
+■ Internal (Embedded) CSS
 • applies directly to a specific HTML document using '<style> </style>'
 • defined within the <style> element placed in the <head> section
-<head>
+• <head>
     <style>
         p {
             color: purple;
         }
     </style>
-</head>
+  </head>
 
-External style sheet
+■ External style sheet
 • a separate CSS file that contains styles
 • linked to an HTML document using the <link> element within the <head> section
 • uses selectors to target elements: id > class, attribute > tag
 • lower priority than inline, internal and selectors with higher specificity
-<head>
+• <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
+  </head>
 
-!important
+■ !important
 • overrides all other styles, including inline styles
 • for emergency situations only
+■
+•
+
+------------------------------------------------------------------------------
+Difference between <div> and <span> tag: ✅
+------------------------------------------------------------------------------
+■ <div> tag
+• block-level 
+• starts on a new line and takes up the full width available
+• used for grouping and structuring content
+
+■ <span> tag
+• inline-level
+• does not create a new line and only consumes space as required by the content 
