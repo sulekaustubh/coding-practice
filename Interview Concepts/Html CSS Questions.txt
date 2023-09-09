@@ -64,3 +64,7 @@ Difference between <div> and <span> tag: ✅
 ■ <span> tag
 • inline-level
 • does not create a new line and only consumes space as required by the content 
+
+------------------------------------------------------------------------------
+Difference between Relative and Absolute positioning: ✅
+------------------------------------------------------------------------------
