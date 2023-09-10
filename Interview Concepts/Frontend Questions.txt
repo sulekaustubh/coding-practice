@@ -72,10 +72,24 @@
      in the Real DOM in the most efficient manner
    ● This process is also known as Reconciliation
 
----------------------------------------------------------------------------
-✅ What is Virtual DOM in React ?
----------------------------------------------------------------------------
 
+--------------------------------------------------------------------------------
+✅ Virtual DOM (VDOM)                           Real DOM
+--------------------------------------------------------------------------------
+   ● Virtual representation of           ● The actual Document Object Model
+     the actual DOM                        representing the structure of a web page
+
+   ● Lightweight                         ● Resource intensive          
+   ● Fast                                ● Slow                 
+   ● Efficient & Optimized               ● Degrades performance
+                                       
+   ● Cannot directly update the          ● Can update the HTML elements directly
+     HTML elements                
+
+   ● Uses Diffing algorithm and          ● Small changes can triger a complete 
+     updates only those elements           re-render of the entire DOM tree 
+     where a change is identified
+                             
 
 
 
