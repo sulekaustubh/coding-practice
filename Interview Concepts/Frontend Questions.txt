@@ -94,6 +94,15 @@
 
 
 ---------------------------------------------------------------------------
-✅ Advantages of arrow functions:
+✅ Advantages of arrow function:
 ---------------------------------------------------------------------------
-   ● 
+   ● Clean and Concise syntax
+   ● Better code readability
+   
+   ● Easy to transition from traditional functions to arrow function syntax
+   ● Improves DX with methods like: map, filter, reduce
+
+   ● Implicitly returns the result for single line of code without return statement
+   ● Pairs well with Async/Await and Promises
+
+   ● Reduces the complex need of using: bind, apply, call
