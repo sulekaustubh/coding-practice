@@ -35,10 +35,19 @@
 ---------------------------------------------------------------------------
    ● It is a JavaScript compiler 
    ● Ensures that the code is compatible with a wide range of browsers
-     By converting modern JavaScript code into an older version of JavaScript   
+     by converting modern JavaScript code into an older version of JavaScript   
    ● Mainly used to convert JSX into regular JavaScript code
 
 ---------------------------------------------------------------------------
-Difference between HTML tags and elements: 🔥
+✅ What is CORS ?
 ---------------------------------------------------------------------------
-■ Tags 
+   ● CORS (Cross-Origin Resource Sharing)
+   ● It is a security feature implemented by web browsers
+   ● It helps to control requests made across different origins/domains
+   
+   ● Without CORS, web pages could make requests to any domain,
+     potentially exposing sensitive data and creating security vulnerabilities
+   ● CORS prevents unauthorized cross-origin requests 
+     by enforcing a same-origin policy by default
+   ● When a web page in one origin tries to make an HTTP request to a different origin, 
+     the browser blocks the request unless the target server explicitly allows it
