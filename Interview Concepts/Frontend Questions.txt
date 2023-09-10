@@ -60,3 +60,25 @@
      uses to optimize the process of updating the actual DOM
    ● It improves performance by minimizing the number of 
      direct manipulations to the real DOM  
+
+---------------------------------------------------------------------------
+✅ How does Virtual DOM actually work ?
+---------------------------------------------------------------------------
+   ● React maintains 2 states of the VDOM in its memory
+     1. Previous state
+     2. Updated state
+   ● The Diffing algorithm calculates the difference between these 2 states
+   ● The resultant difference is applied as a change 
+     in the Real DOM in the most efficient manner
+   ● This process is also known as Reconciliation
+
+---------------------------------------------------------------------------
+✅ What is Virtual DOM in React ?
+---------------------------------------------------------------------------
+
+
+
+
+---------------------------------------------------------------------------
+✅ What is Virtual DOM in React ?
+---------------------------------------------------------------------------
