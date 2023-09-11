@@ -1,53 +1,22 @@
-// // array of string was given,
-// // make an object with key as the strings initial char
-// //  and the array of string with all elements starting with that character.
-// let arr = [
-// 	'ant',
-// 	'apple',
-// 	'bat',
-// 	'cat',
-// 	'cup',
-// 	'dog',
-// 	'dark',
-// 	'dot',
-// 	'apron',
-// 	'arc',
-// ];
-// arr.sort();
-// let temp;
-// let obj = {};
-// let newArr = [];
-// for (i = 0; i < arr.length; i++) {
-// 	temp = arr[i][0];
-// 	newArr = arr.filter((i) => i[0] == temp);
-// 	obj[temp] = newArr;
-// 	arr.splice(0, newArr.length);
-// 	i = -1;
-// }
-// console.log(obj);
+// MEDIUM
+// you are given an array of strings
+// create a new object with keys as the first letters of each array element
+// and for values, every object key must have an array of strings that start with their respective key
 
-let arr = [
-	'ant',
-	'apple',
-	'bat',
-	'cat',
-	'cup',
-	'dog',
-	'dark',
-	'dot',
-	'apron',
-	'arc',
-];
+function arrayToObject(arr) {
+	arr.sort();
+	let obj = {};
 
-arr.sort();
-let obj = {};
-
-for (let i = 0; i < arr.length; i++) {
-	let firstLetter = arr[i][0];
-	if (!obj[firstLetter]) {
-		obj[firstLetter] = [];
+	for (let i = 0; i < arr.length; i++) {
+		let firstLetter = arr[i][0];
+		if (!obj[firstLetter]) {
+			obj[firstLetter] = [];
+		}
+		// obj[firstLetter].push(arr[i]);
+		obj[firstLetter].push(arr[i]);
 	}
-	obj[firstLetter].push(arr[i]);
+	return console.log(obj);
 }
 
-console.log(obj);
+let arr = ['ant', 'cat', 'bat', 'cup', 'dog', 'dot', 'arc'];
+arrayToObject(arr);
