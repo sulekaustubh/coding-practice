@@ -12,9 +12,9 @@ function arrayToObject(arr) {
 		if (!obj[firstLetter]) {
 			obj[firstLetter] = [];
 		}
-		// obj[firstLetter].push(arr[i]);
 		obj[firstLetter].push(arr[i]);
 	}
+	
 	return console.log(obj);
 }
 
