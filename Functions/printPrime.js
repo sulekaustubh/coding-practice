@@ -11,6 +11,7 @@ function printPrime(m) {
     return console.log(arr);
 }
 
+// check whether a number is prime or not
 function isPrime(n) {
 	let count = 0;
 
