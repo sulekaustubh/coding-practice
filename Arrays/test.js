@@ -10,10 +10,6 @@ console.log(temp2)
 let sum = temp1 + temp2
 console.log(`total is ${sum} `)
 
-console.log(arr)
-
-
-
 
 //   10  , 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
 // ];
