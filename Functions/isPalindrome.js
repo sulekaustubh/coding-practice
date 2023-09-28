@@ -6,4 +6,4 @@ function isPalindrome(str) {
     return revStr == str ? 'true' : 'false';
 }
 
-console.log(isPalindrome('wowow'));
+console.log(isPalindrome('wowowo'));
