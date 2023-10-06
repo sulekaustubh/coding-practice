@@ -1,0 +1,16 @@
+● Authentication vs Authorization
+● ::before and ::after in CSS ?
+● Meta tags in HTML
+● .filter() vs .find()
+● pass by value vs pass by reference
+● what is useStrict?
+● useMemo vs useCallback
+● prop drilling
+● react life cycle events
+● redux architecture
+● e.prevent.default()
+●
+●
+●
+●
+●

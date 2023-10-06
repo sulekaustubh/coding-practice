@@ -33,7 +33,7 @@
 ---------------------------------------------------------------------------
 ✅ What is Babel ?
 ---------------------------------------------------------------------------
-   ● It is a JavaScript compiler 
+   ● It is a JavaScript transpiler/compiler 
    ● Ensures that the code is compatible with a wide range of browsers
      by converting modern JavaScript code into an older version of JavaScript   
    ● Mainly used to convert JSX into regular JavaScript code

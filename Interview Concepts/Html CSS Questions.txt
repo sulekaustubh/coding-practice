@@ -1,6 +1,7 @@
 ✨🎗️💎♦️💡📀⭐🌈🔥💫❓❔🔱❇️✅🔵🟢🟡
 
 HTML - Hyper Text Markup Language ✅ 
+CSS - Cascading Style Sheets ✅
 
 ---------------------------------------------------------------------------
 Difference between HTML tags and elements: ✅
@@ -67,7 +68,7 @@ Difference between <div> and <span> tag: ✅
 Difference between Relative and Absolute positioning: ✅
 ------------------------------------------------------------------------------
 ■ Relative
-• positioned relative to its normal position 
+• positioned relative to its regular position 
 • not removed from the document flow
 • can still affect the layout of other elements
 • space it would normally occupy is preserved
