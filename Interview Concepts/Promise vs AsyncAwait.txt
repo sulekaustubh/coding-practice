@@ -9,4 +9,4 @@ Async-Await
 • It is state-less 
 • Always returns a promise, either resolved or rejected 
 • Error handling is done using .try() and .catch() methods
-• Easier to implement and read the data flow 
+• Easier to implement and read the data flow .
