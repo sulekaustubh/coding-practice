@@ -9,6 +9,17 @@
 ● react life cycle events
 ● redux architecture
 ● e.prevent.default()
+● fibre in react.js ?
+● map vs filter vs reduce
+● debounce vs throttle
+● rdux architecture
+----------------------------------------------
+● css box model
+● flex in css?
+● viewport? 
+● position property? different values? realtive, absolute, static, sticky/fixed
+● CSS selector types and specifficty
+●
 ●
 ●
 ●
