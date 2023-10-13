@@ -45,5 +45,23 @@
 //     }, 1000 * i);
 // }
 
-let x = [1, 3, [23, 4, 3, [4, 5, 7, [13, 24, 3, 4, [9, 9, 3, 4]]]]];
-console.log(x.flat(Infinity));
+// let x = [1, 3, [23, 4, 3, [4, 5, 7, [13, 24, 3, 4, [9, 9, 3, 4]]]]];
+// console.log(x.flat(Infinity));
+
+function calculateTotalPrice(prices, discount) {
+    // Write your code here
+    let discountedProduct = Math.max(...prices)
+    let index = prices.indexOf(discountedProduct)
+    // let discount = 
+    prices[index] = prices[index] - ( prices[index]* (discount* (1/100)) );
+    let sum = 0;
+    let total = prices.reduce((sum, i) => sum + i )  
+    // let prices
+    // To debug: console.error('Debug messages...');
+    
+    // return console.log(discountedProduct);
+    return console.log(Math.floor(total));
+    // return console.log(prices, index, discount);
+}
+
+calculateTotalPrice([100, 400, 200], 20);
